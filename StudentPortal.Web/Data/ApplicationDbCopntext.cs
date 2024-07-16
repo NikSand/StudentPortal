@@ -11,5 +11,7 @@ namespace StudentPortal.Web.Data
         }
 
         public DbSet<Student> Students { get; set; }
+        //PM> Add-Migration "Initial Migration"
+        //PM> Update-Database
     }
 }
